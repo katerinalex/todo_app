@@ -1,9 +1,8 @@
-# React TypeScript Starter Pack
+# Game 2048
+Implementation of a simple TODO app like in [TODO app](http://todomvc.com/examples/vanillajs/) using React, CSS
 
-To use this template click `Use this template`
 
-### Available Scripts
+[DEMO LINK](https://katerinalex.github.io/todo_app/)
 
-`Deploy` - available to deploy your application to gh-pages
+To run project you need install node modules and after that use command npm start
 
-`SCSS Preprocessor` - available to write your styles with modern style language
