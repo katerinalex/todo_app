@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { useContext, useState } from 'react';
-import { Todo } from './types/Todo';
+import { Todo } from '../types/Todo';
 import { TodoContextType, TodosContext } from './TodosContext';
 
 /* eslint-disable jsx-a11y/control-has-associated-label */

@@ -1,7 +1,7 @@
 import { useContext, useMemo, useState } from 'react';
 import { TodoContextType, TodosContext } from './TodosContext';
 import { TodoItem } from './TodoItem';
-import { FilterType } from './types/Filter';
+import { FilterType } from '../types/Filter';
 
 type Props = {
   filter: FilterType,

@@ -1,4 +1,4 @@
-# Game 2048
+# TODO App
 Implementation of a simple TODO app like in [TODO app](http://todomvc.com/examples/vanillajs/) using React, CSS
 
 

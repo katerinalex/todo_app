@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { TodosContext } from './TodosContext';
-import { useLocalStorage } from './useLocalStorage';
+import { TodosContext } from './components/TodosContext';
+import { useLocalStorage } from './hooks/useLocalStorage';
 import { FilterType } from './types/Filter';
-import { Header } from './Header';
-import { TodosFilter } from './TodosFilter';
-import { TodosList } from './TodosList';
+import { Header } from './components/Header';
+import { TodosFilter } from './components/TodosFilter';
+import { TodosList } from './components/TodosList';
 
 export const App: React.FC = () => {
   const [todos, setTodos] = useLocalStorage('todos', []);
